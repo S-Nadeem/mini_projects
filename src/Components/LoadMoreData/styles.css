@@ -1,0 +1,29 @@
+.product_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.product_image {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product_image img {
+  object-fit: cover;
+}
+.loadMoreButton {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+.loadMoreButton:hover {
+  background-color: greenyellow;
+}

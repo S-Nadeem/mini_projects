@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Accordian from "./Components/Accordian";
+import ColorGenerator from "./Components/ColorGenerator";
+import ModalTest from "./Components/Custom-Modal/Modal-test.js";
+import CustomScroll from "./Components/CustomScroll/index.js";
+import GitHubFinder from "./Components/GitHub-profile-Finder/index.js";
+import ImageSlider from "./Components/image-slider/index.js";
+import LoadMoreData from "./Components/LoadMoreData/index.js";
+import SearchAutoComplete from "./Components/Search-autoComplete/index.js";
+import StarRating from "./Components/StarRating.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* //Accordian
+      <Accordian /> */}
+      {/* ColorGenerator
+      <ColorGenerator /> */}
+      {/* star Rating Component
+      <StarRating /> */}
+      {/* Image SliderCoponent
+      <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        page={"1"}
+        limit={"20"}
+      /> */}
+      {/* LoadMoreData Component
+
+      <LoadMoreData url={"https://dummyjson.com/products"} limit={"10"} /> */}
+      {/* customScroll Component
+      <CustomScroll /> */}
+      {/* Modal Test Component
+      <ModalTest /> */}
+      {/*  GitHub Component
+      <GitHubFinder /> */}
+      <SearchAutoComplete />
     </div>
   );
 }
